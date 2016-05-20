@@ -1,0 +1,48 @@
+#mainContent #titleArea{
+    background-color: #5F6772;
+    margin: 0;
+    width: 100%;
+    color: #FFF5C3;
+}
+
+.commodity{
+    height: 100px;
+    background-color: #FFFFFF;
+    margin:10px;
+    padding:5px 10px;
+}
+.commodity ul,.commodity li{
+    margin: 0px;
+}
+#mainContent .commodity div{
+    display: inline-block;
+}
+.commodity .checkbox{
+    width: 30px;
+}
+.checkbox input{
+    background-color: #FFE047;
+}
+.commodity .photo{
+    width: 200px;
+}
+.commodity .photo img{
+    width: 120px;
+}
+.commodity .parameter{
+    vertical-align: middle;
+    width: 350px;
+}
+.parameter .commodityName{
+    padding: 0 20px;
+}
+.parameter .commodityInfo li{
+    display: inline-block;
+    width: 150px;
+}
+
+.commodity .options{
+    width: 150px;
+    text-align: center;
+    vertical-align:middle;
+}

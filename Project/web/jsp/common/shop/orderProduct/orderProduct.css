@@ -1,0 +1,75 @@
+#mainContent #titleArea {
+    display: block;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin: 5px;
+    text-align: left;
+}
+
+
+
+#dataArea {
+    display: block;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin: 5px;
+    text-align: left;
+}
+
+#continueBtn {
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 94px;
+    background:none repeat scroll 0 0  #F7F7F7;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+#payBtn {
+    cursor: pointer;
+    float: right;
+    height: 36px;
+    line-height: 36px;
+    width: 94px;
+    background:none repeat scroll 0 0  #EE484C;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin-top: 10px;
+}
+
+#amount {
+    margin: 0px 20px;
+    text-align: right;
+    font-size: 16px;
+}
+#amountNum{
+    color: #FF0000;
+    font-size: 20px;
+}
+#noOrders{
+    margin: 50px;
+    height: 200px;
+    text-align: center;
+}
+
+#productInfo th,#productInfo td{
+    text-align: center;
+}
+
+#mainContent #productInfo{
+    min-height: 600px;
+}
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+td {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tableHead td {
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.tableLeftHead {
+    text-align: left;
+    border-right: 2px solid #000000;
+}
+
+.correctEntity {
+    background: #98fb98;
+}
+
+.mentionsFinishedRight {
+    border-right: 2px solid #000000;
+}
+
+.mentionsFinishedBottom td {
+    border-bottom: 2px solid #000000;
+}
+
+.mentionCandidatesFinishedRight {
+    border-right: 1px solid #000000;
+}
+
+.mentionCandidatesFinishedBottom td {
+    border-bottom: 1px solid #000000;
+}

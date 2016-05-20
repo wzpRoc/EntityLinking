@@ -1,0 +1,96 @@
+/*----------------列表页面样式-----------------------*/
+body {
+    background-color: #F2F2F2;
+}
+
+#mainContent img {
+    width: 98%;
+}
+
+#fullContent {
+    background-color: #F2F2F2;
+}
+
+.display{
+    width:100%;
+}
+
+.display-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dataDisplay{
+    display: block;
+    float:left;
+}
+.dataDisplay img{
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.dataPicture{
+    width:158px;
+    float:left;
+    cursor: pointer;
+}
+
+.dataPicture img{
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#dataDisplay {
+    margin: 35px 80px;
+}
+
+#dataDisplay img{
+    width: 640px;
+    height: 400px;
+}
+
+#dataArea{
+    overflow: hidden;
+}
+
+.choosePicture{
+    border:2px solid #FFE047;
+}
+
+#moveleft{
+    left: 40px;
+    background: url("../img/front/prev.png") no-repeat scroll center center #000000;
+    background-color: #14120D;
+}
+#moveright{
+    right: 30px;
+    background: url("../img/front/next.png") no-repeat scroll center center #000000;
+    background-color: #14120D;
+}
+
+.navigationPic{
+    cursor: pointer;
+    height: 160px;
+    margin-top: -80px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    z-index: 2;
+    opacity: 0.3;
+}
+.navigationPic:hover{
+    opacity: 0.6;
+}
+
+.clear{
+    clear:both;
+}
+
+
+
+
+
+
+
+
+

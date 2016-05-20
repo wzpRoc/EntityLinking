@@ -1,0 +1,61 @@
+.subTitle {
+    background-color: #446CB3;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.subData ul li {
+    display: inline;
+    float: left;
+    width: 25%;
+}
+
+#userGroupUserInfo  ul li {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+#userGroupMenuInfo .firstLevel {
+    width: 100%;
+    margin-left: 50px;
+}
+
+#userGroupMenuInfo .secondLevel {
+    width: 80%;
+    margin-left: 100px;
+}
+
+#userGroupMenuInfo .thirdLevel {
+    width: 60%;
+    margin-left: 100px;
+}
+
+#userGroupMenuInfo .firstLevelName {
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    background-color: #CCCCFF;
+    cursor: pointer;
+}
+
+#userGroupMenuInfo .secondLevelName {
+    width: 400px;
+    height: 15px;
+    padding: 5px;
+    background-color: #CCFFCC;
+    cursor: pointer;
+}
+
+#userGroupMenuInfo .thirdLevelName {
+    width: 300px;
+    padding: 5px;
+    background-color: #EEEEEE;
+    cursor: pointer;
+
+}
+

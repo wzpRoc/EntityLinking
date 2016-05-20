@@ -1,0 +1,215 @@
+/*********************************************左侧导航栏样式开始 ***************************************/
+#menu {
+    float: left;
+    margin-top: 40px;
+    width: 200px;
+}
+
+#menu li {
+    min-height: 40px;
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+#menu a {
+    color: #FCF4C1;
+    cursor: pointer;
+}
+
+/*一级菜单样式*/
+#menu .topMenu {
+    line-height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+/*#menu .topMenu .active {*/
+    /*background: url("../img/front/menuFocus.png") no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: 30px;*/
+/*}*/
+
+/*二级菜单样式*/
+#menu .subMenu {
+    display: none;
+}
+
+#menu .subMenu li {
+    line-height: 40px;
+}
+
+#menu .subMenu li .active {
+    background: url("../img/front/menuFocus.png") no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+#menu .subMenu li a {
+    background: url("../img/front/subMenuIcon.png") no-repeat;
+    background-size: 10px;
+    background-position: 0 5px;
+    padding: 2px 20px;
+}
+
+#menu .subMenu a {
+    margin-left: 10px;
+}
+
+#menu li .selected {
+    display: none;
+}
+
+#menu li a:hover, #menu li a:focus {
+    text-decoration: none;
+}
+
+#menu li img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+/**************************************左侧导航栏样式结束*******************************************************/
+
+/**************************************头部和尾部样式开始*******************************************************/
+body {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+#header {
+    overflow: hidden;
+    width: 100%;
+    background-color: #FFE047;
+    height: 80px;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    width: 200px;
+    height: 80px
+}
+
+#footer {
+    overflow: hidden;
+    width: 100%;
+    background-color: #5F6772;
+    height: 80px;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#footer #slogan {
+    background-color: #252733;
+    font-size: 13px;
+    color: #FCE039;
+    width: 200px;
+    height: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#header .logo {
+    background-color: #252733;
+    bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#fullContent {
+    width: 1000px;
+    background-color: #5F6772;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#buttons {
+    margin-left: 200px;
+    height: 30px;
+    margin-top: 25px;
+}
+#buttons div{
+    float: left;
+}
+#buttons .button {
+    color: #252733;
+    background-color: #FFF5C2;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+#Chinese {
+    margin-left: 60px;
+}
+
+#English {
+    margin-left: 5px;
+}
+
+#buttons img {
+    height: 25px;
+}
+
+#loginAndRegister {
+    background-color: #FEF6C9;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+#login {
+    margin-left: 10px;
+}
+
+#loginAndRegisterMiddle {
+    margin-left: 5px;
+}
+
+#register {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+#searchArea span, #searchArea a{
+    display: inline-block;
+    position: relative;
+}
+
+
+#search {
+    margin-left: 100px;
+}
+
+#searchInput {
+    background-color: #FFF5C2;
+    border: 0 none;
+    border-radius: 10px 0 0 10px;
+    height: 25px;
+    padding: 0 10px;
+    width: 120px;
+}
+
+
+/**************************************头部和尾部样式结束*******************************************************/
+
+
+
+

@@ -1,0 +1,1204 @@
+body, button, input, select, textarea, th {
+    color: #8B8B8B;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+.main_frame_layout {
+    width: 960px;
+    padding: 20px 0;
+    margin: 0 auto;
+    height: auto;
+    _height: 500px;
+    min-height: 500px;
+}
+
+.main_frame_layout .main_container {
+    width: 700px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+
+
+/************************************************************* 专辑信息展示  ******************************************************/
+.album_info {
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    height: 300px;
+}
+
+.album_info .album_cover {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px 0 0;
+}
+
+.album_info .album_text {
+    float: left;
+    width: 380px;
+    height: 300px;
+    position: relative;
+}
+/*.album_info .album_text .ratings {*/
+    /*display: block;*/
+    /*width: 120px;*/
+    /*height: 59px;*/
+    /*margin: 0 0 20px;*/
+    /*text-indent: -9999px;*/
+    /*overflow: hidden;*/
+/*}*/
+
+.album_info .album_text h2 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 28px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.album_info .album_text p {
+    line-height: 24px;
+    width: 270px;
+    overflow: hidden;
+}
+
+.album_info .album_text .album_assess {
+    width: 110px;
+    position: absolute;
+    top: 116px;
+    right: 0;
+}
+
+.album_info .album_text .album_assess strong {
+    display: block;
+    font-size: 32px;
+    height: 35px;
+    line-height: 35px;
+    color: #ff7b10;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.album_info .album_text .album_assess .favor a {
+    display: block;
+    width: 60px;
+    height: 59px;
+    margin: 0 0 20px;
+    cursor: pointer;
+    /*background: url(../../../images/heart-48.png);*/
+    /*text-indent: -9999px;*/
+    /*overflow: hidden;*/
+}
+
+.mod_album_op {
+    width: 290px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mod_album_op .shadow {
+    width: 287px;
+    height: 35px;
+    position: absolute;
+    left: 2px;
+    background: #e6e6e6;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.mod_album_op .op_content {
+    width: 287px;
+    height: 31px;
+    border: solid 1px #ddd;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 1px 2px 0 #F2F2F2;
+}
+/************************************************************* 专辑信息展示  结束******************************************************/
+
+/************************************************************* 专辑信息详情介绍展示  开始******************************************************/
+
+.album_detail {
+    margin: 30px 0 0 0;
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.album_detail h3 {
+     max-height: 72px;
+     _height: 72px;
+     width: 380px;
+     margin: 0 0 14px;
+     font-family: "Microsoft YaHei";
+     font-size: 20px;
+     color: #333;
+     font-weight: 500;
+     overflow: hidden;
+ }
+
+.album_detail p {
+    padding: 0 10px 0 5px;
+}
+
+/************************************************************* 专辑信息详情介绍展示  开始******************************************************/
+
+/************************************************************* 音乐大厅专辑展示  开始 *******************************************/
+.hall_albumlist {
+    position: relative;
+    margin: 0 0 38px;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.hall_albumlist .title {
+    height: 26px;
+    /*padding: 2px 0;*/
+    overflow: hidden;
+    margin: 0 0 10px;
+    background-color: #900B0B;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.hall_albumlist .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;;
+    font-weight: 500;
+    overflow: hidden;
+    /*background: url(img/index_title_bg.png) no-repeat 10px -78px;*/
+}
+
+.hall_albumlist .albumContent {
+    width: 700px;
+    overflow: hidden;
+}
+
+.album_list_content {
+    width: 712px;
+}
+
+.album_list_content .album_cover {
+    width: 270px;
+    height: auto;
+    margin: 0 10px 0 0;
+}
+
+.album_list_content li {
+    width: 130px;
+    height: 186px;
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+.album_list_content .album_cover .album_poster, .album_list .album_cover img {
+    display: block;
+    width: 270px;
+    height: 270px;
+}
+
+.album_list_content .album_cover img {
+    display: block;
+    width: 270px;
+    height: 270px;
+}
+
+.album_list_content .album_cover h5 {
+    margin: 4px 0 8px;
+}
+
+.album_list_content .album_cover .album_info {
+    height: 32px;
+    line-height: 16px;
+    white-space: normal;
+    margin: 0 0 6px;
+    overflow: hidden;
+}
+
+.album_list_content li .small_album_poster {
+    margin: 0 0 6px;
+    position: static;
+}
+.small_album_poster, .small_album_poster img {
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+
+.album_list_content li h5 {
+    font-weight: 500;
+    width: 130px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+/******************************************* 音乐大厅专辑展示结束 *******************************************/
+
+/******************************************* 音乐大厅音乐排行榜开始 *****************************************/
+.hall_songlist {
+    position: relative;
+    margin: 30px 0 0px;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.hall_songlist .title {
+    height: 26px;
+    overflow: hidden;
+    background-color: #820090;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.hall_songlist .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    overflow: hidden;
+    float: left;
+    /*background: url(img/index_title_bg.png) no-repeat 10px -78px;*/
+}
+
+.hall_songlist .title h5 {
+    float: right;
+    overflow: hidden;
+}
+
+.hall_songlist .title h5 a{
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    float: right;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    /*background: url(img/index_title_bg.png) no-repeat 10px -78px;*/
+}
+
+
+
+.tableHead {
+    font-family: ""Microsoft JhengHei"";
+    font-size: 20px;
+}
+
+/******************************************** 音乐大厅音乐排行榜结束 ****************************************/
+
+.album_song_list  {
+    clear: both;
+    position: relative;
+    zoom: 1;
+    margin: 30px 0 0 0;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.song_list h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+
+.commentContent {
+    clear:both;
+    position: relative;
+    zoom: 1;
+    margin: 30px 0 0 0;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.commentContent h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.commentContent .add_comment {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    zoom: 1;
+}
+
+.commentContent .add_comment h4 {
+    position: relative;
+    padding: 0 0 10px 15px;
+    font-weight: normal;
+    font-size: 12px;
+    zoom: 1;
+}
+
+.commentContent .add_comment h4 span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #333;
+    font-size: 12px;
+}
+
+.commentContent .add_comment textarea {
+    width: 690px;
+    height: 130px;
+    overflow: hidden;
+    border: #D9D9D9 solid 1px;
+    margin: 0 0 5px;
+}
+
+.commentContent .add_comment button {
+    float: right;
+    margin-right: 10px;
+    color: #0F820C;
+    border: 1px solid #DDD;
+    display: inline-block;
+    line-height: 20px;
+    line-height: 23px\9;
+    height: 23px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 0 #F2F2F2;
+}
+
+.commentContent .comment_list .item {
+    position: relative;
+    min-height: 50px;
+    _height: 50px;
+    margin: 0 0 20px 0;
+    padding: 0 15px 20px 75px;
+    zoom: 1;
+    border-bottom: #C6C6C6 dotted 1px;
+    word-wrap: break-word;
+}
+
+.commentContent .comment_list .item .avatar {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.commentContent .comment_list .item .avatar img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.commentContent .comment_list .item h5 {
+    margin: 0 0 5px 0;
+    font-weight: normal;
+    display: inline;
+}
+
+.commentContent .comment_list .item .msg_txt {
+    display: inline;
+    word-wrap: break-word;
+}
+
+.commentContent .comment_list .item p {
+    padding: 5px 0 0;
+    color: #A3A3A3;
+    overflow: hidden;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.main_frame_layout .side_container {
+    width: 220px;
+    float: right;
+}
+
+.ratings_star_on {
+    background-position: 0px 0px;
+}
+
+.ratings_star_off {
+    background-position: 0 -26px;
+}
+
+#rating_title {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+
+#rating_title p {
+    color: #ff7b10;
+    margin: 1px 0 0 0;
+    height: 23px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+
+.ratings_star {
+    background-image: url(../../../images/stars.png);
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    width: 23px;
+    height: 23px;
+    float: left;
+}
+
+.mod_user_list .title h3 {
+    width: 154px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(img/other_title_bg.png?max_age=19830211&d=20130507102817) no-repeat 0 0;
+}
+
+.side_mod_point p {
+    margin: 20px 0;
+}
+
+/******************************************** 其他类似歌曲列表 开始 *************************************************************/
+.other_songs {
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.other_songs .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.recommend_list {
+    width: 220px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.recommend_list li {
+    width: 333px;
+    position: relative;
+    overflow: hidden;
+    height: 23px;
+    line-height: 24px;
+    margin: 0 0 6px;
+    padding: 0 0 6px;
+    float: left;
+    border-bottom: 1px dotted #fff;
+}
+
+.recommend_list li {
+    width: 220px;
+    margin: 0 0 4px;
+}
+
+.recommend_list li h5 {
+    width: 112px;
+}
+
+.recommend_list li h5 a {
+    margin: 0 6px 0 0;
+    color: #0f820c;
+}
+
+.recommend_list li a {
+    font-size: 12px;
+}
+
+
+.recommend_list li h5 {
+    width: 235px;
+    float: left;
+    font-weight: 500;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.recommend_list li .count {
+    width: 64px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+
+
+/**********************************************************************************************************/
+
+
+
+/**************************************** 其他类似专辑列表  ************************************************/
+.other_albums {
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+.other_albums .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.other_albums ul {
+    width: 240px;
+    overflow: hidden;
+}
+
+.other_albums ul li {
+    float: left;
+    width: 100px;
+    height: 175px;
+    overflow: hidden;
+    margin: 0 15px 0 0;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.other_albums ul li h5 {
+    font-weight: 500;
+    margin: 6px 0 6px;
+    width: 100px;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.other_albums .mod_more {
+    width: 37px;
+    height: 14px;
+    position: absolute;
+    left: 124px;
+    top: 10px;
+}
+
+.other_albums .other_albums_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+/*******************************************************************************************************/
+
+/********************************************* 搜索页面 专辑列表陈列  开始**********************************************************/
+
+.album_list_frame {
+    position: relative;
+    margin: 30px 0 0px;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.album_list_frame .title {
+    height: 26px;
+    padding: 2px 0;
+    overflow: hidden;
+    margin: 0 0 10px;
+    background-color: #900B0B;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.album_list_frame .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    float: left;
+    overflow: hidden;
+}
+
+
+.album_list_frame .title h5 {
+    float: right;
+    overflow: hidden;
+}
+
+.album_list_frame .title h5 a{
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    float: right;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    /*background: url(img/index_title_bg.png) no-repeat 10px -78px;*/
+}
+
+.album_list {
+    width: 700px;
+    overflow: hidden;
+    margin: 17px 0 0;
+}
+
+.album_list ul {
+    width: 720px;
+    overflow: hidden;
+}
+
+.album_list li {
+    width: 130px;
+    height: 220px;
+    margin-right: 12px;
+    float: left;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.poster, .poster img {
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+
+.poster {
+    position: relative;
+}
+
+.album_list .album_name {
+    width: 130px;
+    line-height: 20px;
+    height: 20px;
+    margin: 5px 0;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.album_list li p {
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:0 0 1px 0;
+}
+
+/********************************************* 搜索页面 专辑列表陈列  结束**********************************************************/
+
+/********************************************* 搜索页面 艺人列表陈列  开始**********************************************************/
+
+
+.artist_list_frame {
+    position: relative;
+    margin: 30px 0 0px;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.artist_list_frame .title {
+    height: 26px;
+    padding: 2px 0;
+    overflow: hidden;
+    margin: 0 0 10px;
+    background-color: #0f3090;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.artist_list_frame .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    float: left;
+    overflow: hidden;
+}
+
+
+.artist_list_frame .title h5 {
+    float: right;
+    overflow: hidden;
+}
+
+.artist_list_frame .title h5 a{
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    float: right;
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    /*background: url(img/index_title_bg.png) no-repeat 10px -78px;*/
+}
+
+.artist_list {
+    width: 700px;
+    overflow: hidden;
+    margin: 17px 0 0;
+}
+
+.artist_list ul {
+    width: 720px;
+    overflow: hidden;
+}
+
+.artist_list li {
+    width: 130px;
+    height: 220px;
+    margin-right: 12px;
+    float: left;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.artist_list .artist_name {
+    width: 130px;
+    line-height: 20px;
+    height: 20px;
+    margin: 5px 0;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.artist_list li p {
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:0 0 1px 0;
+}
+
+/*********************************************** 边栏歌手 ********************************************/
+.side_singers {
+    position: relative;
+    margin: 30px 0 0 0;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin: 0 0 13px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.side_singers .title {
+    height: 30px;
+}
+
+.side_singers .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.side_singers .singers_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+.side_singers .singers_list {
+    margin: 13px 0 0 0;
+    width: 252px;
+    overflow: hidden;
+}
+
+.side_singers li {
+    float: left;
+    width: 50px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 24px 0 5px;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.side_singers li .singer_pic {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 0 6px;
+}
+
+.side_singers li .singer_name {
+    color: #0f820c;
+}
+
+#hall_singers {
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+#hall_singers .title {
+    height: 26px;
+    overflow: hidden;
+    background-color: #0f3090;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+#hall_singers .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    overflow: hidden;
+}
+/************************************************************************************************/
+
+/**************************************** 粉丝的列表 ********************************************/
+.favor_fans {
+    border-bottom: 0 none;
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+.favor_fans {
+    position: relative;
+    border-bottom: solid 1px #e4e4e4;
+    margin: 0 0 13px;
+}
+
+.favor_fans .title, .favor_fans .my_title {
+    height: 30px;
+}
+
+
+.favor_fans .title h3, .favor_fans .my_title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.favor_fans .fans_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+.favor_fans .fans_list {
+    width: 252px;
+    overflow: hidden;
+    margin: 13px 0 0;
+}
+
+
+.favor_fans .fans_list li {
+    float: left;
+    width: 50px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+.favor_fans .fans_list li .fans_pic  {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 0 6px;
+}
+
+.favor_fans .fans_list li .fans_pic img{
+    width: 100%;
+    height: 100%;
+}
+
+/****************************************************************************************/
+.search_title {
+    /*height: 30px;*/
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid 1px #e2e2e2;
+    /*padding: 0 0 10px 0;*/
+}
+
+
+.albums  {
+    clear: both;
+    position: relative;
+    zoom: 1;
+    margin: 30px 0 0 0;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.albums_title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+/****************************************** musicHall 热门标签 开始 ************************************************/
+.side_labels {
+    margin:30px  0 0 0;
+    width: 220px;
+    overflow: hidden;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.side_labels .title {
+    height: 26px;
+    overflow: hidden;
+    background-color: #019047;
+    font-size: 20px;
+    height: 45px;
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.side_labels .small_title {
+    margin: 10 0 0 0;
+    font-size: 20px;
+}
+
+.side_labels .small_title h4 {
+    color: #040405;
+}
+
+.side_labels .title h3 {
+    max-height: 72px;
+    _height: 72px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.side_labels_part {
+    margin: 20px 0 0 0;
+}
+
+.side_labels ul {
+    width: 240px;
+    height: 72px;
+    padding: 10px 0;
+}
+
+
+.side_labels li {
+    /*height: 24px;*/
+    /*line-height: 24px;*/
+    /*float: left;*/
+    /*margin: 0 20px 0 0;*/
+    /*padding: 0 0 0 10px;*/
+    /*overflow: hidden;*/
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    width: 80px;
+}
+
+/*.genre_list li {*/
+    /*float: left;*/
+    /*height: 24px;*/
+    /*line-height: 24px;*/
+    /*overflow: hidden;*/
+    /*width: 80px;*/
+/*}*/
+
+/****************************************** musicHall 热门标签 结束 ************************************************/
+
+
+
+/****************************************** musicHall 图片展示 开始 ************************************************/
+.pic_prev {
+    left: 0;
+    cursor: pointer;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    z-index: 2;
+    background: rgb(34, 34, 34);
+}
+
+.pic_next {
+    right: 0;
+    cursor: pointer;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    z-index: 2;
+    background: rgb(34, 34, 34);
+}
+
+#left_arrow{
+    background: url(../../../images/home/camera_skins.png) no-repeat 0 0;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-position: 0 -80px;
+}
+
+#right_arrow{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(../../../images/home/camera_skins.png) no-repeat -40px 0;
+    background-position: -40px -80px;
+}
+
+
+#myIndicators {
+    position: absolute;
+    top: 15px;
+    height: 20%;
+    right: 15px;
+    z-index: 5;
+    margin: 0;
+    list-style: none;
+    left: 90%;
+    width: 10%;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background: #333;
+    background: rgba(0,0,0,0.75);
+}
+
+/****************************************** musicHall 图片展示 结束************************************************/
+
+
+.ad {
+    position: relative;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+}
+
+.ad .alert{
+    margin: 15px 15px 20px 10px;
+}

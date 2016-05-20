@@ -1,0 +1,6 @@
+<action name="predicateList" class="org.ailab.entityLinking.wim.predicate.PredicateListAction">
+    <result>/jsp/predicate/predicateList.jsp</result>
+</action>
+<action name="predicateDetail" class="org.ailab.entityLinking.wim.predicate.PredicateDetailAction">
+    <result>/jsp/predicate/predicateDetail.jsp</result>
+</action>

@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<script language="javascript" src="./js/jquery.form.js"></script>
+<script language="javascript" src="./uploadPic.js"></script>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://"+ request.getServerName() + ":" + request.getServerPort()+ path + "/";
+%>
+
+<style>
+    #uploadForm {
+        text-align: center;
+    }
+
+    #fileName {
+        margin: 5px;
+    }
+
+    #preview {
+        margin: 10px;
+    }
+</style>
+
+<body>
+<form id="uploadForm">
+    <body>
+    <form id="form2" method="post" enctype="multipart/form-data">
+        <table width="400" border="1" cellspacing="1" cellpadding="10">
+            <tr>
+                <td height="25">
+                    浏览图片：
+                </td>
+                <td>
+                    <input id="fileupload" name="fileupload" type="file"/>
+
+                    <div id="tipDiv"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" class="right-button02"
+                           onclick="uploadImage()" value="上传"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    图片预览
+    <div id="showImage"></div>
+    </body>
+</form>
+</body>
+</html>

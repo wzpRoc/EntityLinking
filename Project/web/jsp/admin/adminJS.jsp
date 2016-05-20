@@ -1,0 +1,9 @@
+<script language="javascript" src="../js/jquery-1.11.0.js"></script>
+<script language="javascript" src="../js/bootstrap.js"></script>
+<script language="javascript" src="../dwr/util.js"></script>
+<script language="javascript" src="../dwr/engine.js"></script>
+<script language="javascript" src="../dwr/interface/AjaxInterface.js"></script>
+<script language="javascript" src="../dwr/interface/AjaxLogin.js"></script>
+<script language="javascript" src="../js/login.js"></script>
+<script language="javascript" src="../js/wimfra.js"></script>
+<script language="javascript" src="../js/load.js"></script>

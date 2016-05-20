@@ -1,0 +1,195 @@
+#music-nav {
+    background: #f0f3ef;
+}
+
+.headNav {
+    width: 100%;
+    min-width: 950px;
+    overflow: hidden;
+    zoom: 1;
+    background: #f0f3ef;
+    /*margin-bottom: 20px;*/
+}
+
+.headNav .nav-main, .nav-secondary {
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+#music-nav .nav-content {
+    border-color: #e3e9e2;
+}
+.headNav .nav-content {
+    border-bottom: 1px solid #e5ebe4;
+}
+
+
+.headNav .nav-main {
+    position: relative;
+    padding: 10px 0 5px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+
+#music-nav .nav-logo {
+    /*background-image: url(../../images/wzp.newsML.test/logo.png);*/
+    /*background-image: -webkit-image-set(url(../../images/wzp.newsML.test/logo.png) 1x,url(../../images/wzp.newsML.test/logo.png) 2x);*/
+}
+
+.headNav .nav-logo {
+    float: left;
+    height: 45px;
+    width: 145px;
+    margin: 4px 13px 0 0;
+    /*background: url(../../images/wzp.newsML.test/logo.png) repeat-x;*/
+}
+
+.headNav .nav-logo a img{
+    display: block;
+    width: 90%;
+    height: 90%;
+}
+
+.headNav a:link, .headNav a:visited {
+    color: #555d53;
+}
+
+.nav-search {
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    padding: 10px 0 15px 0;
+}
+
+#music-nav .nav-search .inp {
+    background-image: url(../../images/test/nav_mu_bg.png);
+}
+
+.nav-search .inp input {
+    background: #fff;
+    width: 96%;
+    margin: 0;
+    text-align: left;
+    height: 30px;
+    padding-left: 10px;
+    height: 28px\9;
+    line-height: 28px\9;
+    outline: 0;
+}
+.nav-search input {
+    -webkit-appearance: none;
+    border: 0;
+    background: transparent;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav-search fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: static;
+}
+
+.nav-search legend {
+    display: none;
+}
+fieldset legend {
+    color: #666;
+    padding: 0 5px;
+}
+
+.nav-search label {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    line-height: 30px;
+    cursor: text;
+    color: #bbb;
+    width: auto;
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+
+.nav-search .inp {
+    float: left;
+    width: 470px;
+    height: 34px;
+    text-align: center;
+    _margin-right: -3px;
+    cursor: text;
+    background: url(../../images/test/nav_bg_a1.png) no-repeat 0 0;
+}
+
+.nav-search .inp input {
+    background: #fff;
+    width: 96%;
+    margin: 0;
+    text-align: left;
+    height: 30px;
+    padding-left: 10px;
+    height: 28px\9;
+    line-height: 28px\9;
+    outline: 0;
+}
+
+.nav-search .inp-btn {
+    position: relative;
+    left: -1px;
+    width: 37px;
+    height: 34px;
+    zoom: 1;
+    overflow: hidden;
+}
+
+#music-nav .nav-search .inp-btn input {
+    background-image: url(../../images/test/nav_mu_bg.png);
+}
+.nav-search .inp-btn input {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    padding: 35px 0 0 0;
+    overflow: hidden;
+    background: url(../../images/test/nav_bg_a1.png) no-repeat 0 -40px;
+    color: transparent;
+    cursor: pointer;
+}
+
+.nav .nav-main, .nav .nav-secondary {
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.nav-secondary .nav-items {
+    float: none;
+    zoom: 1;
+    font-size: 13px;
+}
+
+.nav-secondary ul {
+    margin: 9px 0;
+}
+
+.nav-secondary .nav-items li {
+    _float: left;
+    _display: inline;
+}
+
+.nav-secondary li {
+    display: inline;
+    margin-right: 30px;
+}

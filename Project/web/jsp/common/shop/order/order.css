@@ -1,0 +1,100 @@
+#mainContent #titleArea {
+    display: block;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin: 5px;
+    text-align: left;
+}
+
+#mainContent {
+    width: 950px;
+}
+
+/*-------------------------收货地址样式----------------------------*/
+#saveAddressBtn{
+
+}
+
+.subTitle {
+    font-size: 20px;
+}
+
+#addressInfo {
+    text-align: left;
+    height: 300px;
+}
+
+#addressInfo .control-label {
+    float: left;
+    width: 10%;
+}
+
+
+/*-------------------------商品信息样式----------------------------*/
+#productInfo {
+    text-align: left;
+}
+
+#productInfo td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#productInfo th {
+    text-align: center;
+}
+
+#productParam li {
+    padding: 5px;
+    color: #666666;
+}
+
+#amount {
+    background-color: #F5F5F5;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: right;
+    width: 100%;
+}
+
+#amount span {
+    font-size: 25px;
+    color: red;
+}
+
+#buttonArea {
+    text-align: right;
+
+}
+
+#buttonArea button {
+    margin-top: 10px;
+}
+
+#submitOrderBtn{
+    background-color:#C51B00 ;
+    color: #FFFFFF;
+}
+
+#noProducts{
+    margin: 50px;
+    height: 200px;
+    text-align: center;
+}
+
+#state{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 70px;
+    color: #888888;
+    height: 150px;
+}
+#state li{
+    height: 50px;
+    padding: 10px;
+}
+
+
+

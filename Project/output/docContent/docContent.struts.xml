@@ -1,0 +1,6 @@
+<action name="docContentList" class="org.ailab.entityLinking.wim.docContent.DocContentListAction">
+    <result>/jsp/docContent/docContentList.jsp</result>
+</action>
+<action name="docContentDetail" class="org.ailab.entityLinking.wim.docContent.DocContentDetailAction">
+    <result>/jsp/docContent/docContentDetail.jsp</result>
+</action>

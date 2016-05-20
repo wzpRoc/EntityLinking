@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*******************************  功能按钮区 开始 *************************************/
+#topArea {
+    border-bottom: 2px dotted #D8D8D8;
+    margin: -28px auto 5px;
+    padding: 5px;
+    text-align: left;
+    /*width: 100%;*/
+}
+
+#buttonArea {
+    float: right;
+    margin: auto;
+}
+
+/*******************************  功能按钮区 结束 *************************************/
+
+
+
+
+#dataArea {
+    width: 100%;
+    margin: auto;
+}
+
+#dataArea #dataTable {
+    width: 100%;
+}
+
+#dataArea #dataTable {
+    width: 100%;
+}
+
+#dataArea table th, #dataArea table td {
+    color: #444444;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 5px 0 7px;
+    vertical-align: middle;
+}
+
+#dataArea table .label {
+    color: #404040;
+    text-align: right;
+    text-indent: 0;
+    width: 25%;
+    vertical-align: top;
+}
+
+
+#dataArea table input, #dataArea table select {
+    border-color: -moz-use-text-color -moz-use-text-color #DDDDDD;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    color: #333333;
+    font-size: 16px;
+}
+
+#dataArea table textarea {
+    font-size: 14px;
+}
+
+#dataArea .value .tcalInput {
+    width: 105px;
+}

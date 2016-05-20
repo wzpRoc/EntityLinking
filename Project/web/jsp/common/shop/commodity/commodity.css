@@ -1,0 +1,27 @@
+.commodityPhoto{
+    text-align: center;
+}
+.commodityPhoto .photo{
+    display: table-cell;
+    vertical-align:middle;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.commodityPhoto img{
+    width: 200px;
+}
+#mainContent .table{
+    width: 96%;
+    margin: 0 2%;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+}
+#mainContent .table td{
+    vertical-align:middle;
+    text-align: center;
+}
+#mainContent .table .grayTD{
+    background-color: #CECFD1;
+}
+

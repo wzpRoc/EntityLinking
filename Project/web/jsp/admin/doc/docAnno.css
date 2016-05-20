@@ -1,0 +1,65 @@
+#contentInMainContent {
+    padding: 10px;
+}
+
+
+#div_annoText {
+    background-color: #eeeeff;
+    border: medium none #8888ff;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#div_annoText [name=charDiv] {
+    display: inline;
+}
+
+.charDiv {
+    /*background-color: #87cefa;*/
+}
+
+.charDiv_isAnno {
+    background-color: #ffaa77;
+}
+
+#div_annoListHead {
+    margin-top: 10px;
+    background-color: #eeeeee;
+    padding: 2px 0;
+}
+
+#div_annoListHead .div_annoListHeadElement {
+    display: inline-block;
+    /*text-align: center;*/
+}
+
+#div_annoListHead span {
+    text-align: center;
+}
+
+.div_annoInfo input {
+    border-color: #dddddd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    width: 300px;
+    margin-right: 10px;
+    font: 14px/1.5 tahoma,arial,微软雅黑;
+}
+
+.div_deleteAnno {
+    cursor: pointer;
+    display: inline;
+}
+
+.div_annoInfo .annoInfoIdx {
+    text-align: right;
+    width: 50px;
+}
+
+.div_deleteAnno a {
+    color: red;
+}

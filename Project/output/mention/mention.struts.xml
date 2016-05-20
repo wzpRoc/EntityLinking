@@ -1,0 +1,6 @@
+<action name="mentionList" class="org.ailab.entityLinking.wim.mention.MentionListAction">
+    <result>/jsp/mention/mentionList.jsp</result>
+</action>
+<action name="mentionDetail" class="org.ailab.entityLinking.wim.mention.MentionDetailAction">
+    <result>/jsp/mention/mentionDetail.jsp</result>
+</action>

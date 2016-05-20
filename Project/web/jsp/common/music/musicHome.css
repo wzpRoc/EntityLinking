@@ -1,0 +1,58 @@
+body, td, th {
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:visited {
+    color: #669;
+    text-decoration: none;
+}
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+
+.pl2 {
+    font: 14px Arial,Helvetica,sans-serif;
+    line-height: 150%;
+    color: #666;
+}
+
+.pl {
+    font: 12px Arial,Helvetica,sans-serif;
+    line-height: 150%;
+    color: #666;
+}
+
+a:visited {
+    color: #669;
+    text-decoration: none;
+}
+
+.aside {
+    float: right;
+    width: 310px;
+}
+
+/*.nav-search {*/
+/*position: relative;*/
+/*overflow: hidden;*/
+/*zoom: 1;*/
+/*padding: 10px 0 15px 0;*/
+/*}*/
+
+/*.nav-search fieldset {*/
+/*border: 0;*/
+/*padding: 0;*/
+/*margin: 0;*/
+/*position: static;*/
+/*}*/

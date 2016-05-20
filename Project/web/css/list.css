@@ -1,0 +1,119 @@
+@charset "utf-8";
+/******************************* 二级导航栏 开始**************************************/
+#subNav {
+    height: 30px;
+    width: 800px;
+}
+
+#subNav li {
+    display: block;
+    float: left;
+    width: 160px;
+    line-height: 40px;
+    background-image: url("../img/front/subNavNormal.png");
+    background-size: 160px 40px;
+    color: #FFF5C2;
+    text-align: center;
+}
+
+/******************************* 二级导航栏 结束**************************************/
+
+/*******************************  查询条件 开始 *************************************/
+#searchArea {
+    margin: 20px 0;
+}
+#searchArea #cartProductsNum, #searchArea #wishProductsNum{
+    position: absolute;
+    right: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 25px;
+}
+#searchArea img {
+    height: 25px;
+}
+#searchArea #search{
+    margin-left: 10px;
+}
+#searchArea #shopCart{
+    margin-left: 260px;
+}
+
+
+#conditionArea {
+    color: #404040;
+    line-height: 2;
+    border-bottom: 2px dotted #D8D8D8;
+    margin: 5px auto 5px;
+    padding: 5px;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+}
+
+#conditionArea div {
+    display: inline;
+}
+
+#conditionArea .label {
+    color: #404040;
+    text-align: right;
+    text-indent: 0;
+    width: 100px;
+    margin-left: 5px;
+}
+
+#conditionArea .value {
+    margin-right: 20px;
+}
+
+#conditionArea .submitButton {
+    float: right;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+#conditionArea input, #conditionArea button {
+    vertical-align: middle;
+    padding: 1px 2px;
+}
+
+#conditionArea button {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*******************************  查询条件 结束 *************************************/
+
+#dataArea {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+#dataArea #dataTable {
+    width: 100%;
+}
+
+#dataArea table .thead {
+    background-color: #EEEEEE;
+}
+
+#dataArea table .tbody {
+    /*background-color: #F7FAFF;*/
+}
+
+#dataArea table .td_checkbox {
+    width: 5%;
+    text-align: center;
+}
+
+#dataArea table th, #dataArea table td {
+    border-bottom: 1px solid #E8E8E8;
+    color: #444444;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 5px 0 5px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+}

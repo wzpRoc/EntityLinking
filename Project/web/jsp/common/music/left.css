@@ -1,0 +1,119 @@
+/*********************************************左侧导航栏 ***************************************/
+#navbar{
+    background-color: #5F6772;
+
+}
+.navbar {
+    overflow: hidden;
+    width: 200px;
+    margin: 0px;
+    min-height: 700px;
+    background-color: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar .navbar-header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar .navbar-collapse {
+    border-color: #999;
+    max-height: 400px;
+}
+
+.navbar .navbar-nav {
+    margin: 20px 0 0;
+    width: 100%;
+    background-color: #5F6772;
+}
+.navbar .navbar-nav li {
+    height: 50px;              /*每个标签的高度*/
+    width: 100%;
+    clear: both;
+}
+
+.navbar .navbar-nav li a {
+    display: block;
+    font-weight: bold;
+    letter-spacing: .5px;
+    line-height: 50px;         /*选中每个标签的实色化*/
+    padding: 0;
+    color: #FFF5C2;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar .navbar-nav li i {
+    float: left;
+    text-align: center;
+    width: 50px;
+    line-height: 60px;
+    font-size: 20px;
+    margin: 0 10px 0 20px;
+}
+
+
+.navbar .navbar-nav li a span.arrow-left {
+    float: right;
+    margin-top: 20px;
+    margin-right: -20px;                    /*选中箭头0px即可显示出来*/
+    -webkit-transition: margin-right .55s ease-in;
+    transition: margin-right .55s ease-in;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #eee;
+}
+
+.navbar-collapse {
+    border: none;
+    padding: 0;
+    height: 100%;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a.navbar-brand {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background-color: #393e5a;
+}
+
+.navbar .navbar-bottom {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color:#3E454D;
+    color: #FFFFFF;
+}
+
+
+
+

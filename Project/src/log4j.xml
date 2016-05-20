@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration>
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="INFO-FILE" class="org.apache.log4j.DailyRollingFileAppender">
+       <param name="file" value="e:/logs/el.info"></param>
+       <param name="Threshold" value="info"></param>
+       <layout class="org.apache.log4j.PatternLayout">  
+           <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} %m%n"/>
+       </layout>  
+    </appender>  
+
+    <category name="org.ailab" additivity="false">
+        <!-- off, error, warn, info, debug -->
+        <priority value="debug"/>
+        <!--<priority value="info"/>-->
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="INFO-FILE"/>
+    </category>
+
+    <root>
+        <!-- off, error, warn, info, debug -->
+        <priority value="info"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</log4j:configuration>

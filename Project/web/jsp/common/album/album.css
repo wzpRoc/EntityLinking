@@ -1,0 +1,302 @@
+body, button, input, select, textarea, th {
+    color: #8B8B8B;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+.layout_2 {
+    width: 960px;
+    padding: 20px 0;
+    margin: 0 auto;
+    height: auto;
+    _height: 500px;
+    min-height: 500px;
+}
+
+.layout_2 .main_container {
+    width: 700px;
+    margin-right: 40px;
+    float: left;
+}
+
+.mod_album_info .album_cover {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px 0 0;
+}
+
+.mod_album_info .album_text {
+    float: left;
+    width: 380px;
+    height: 300px;
+    position: relative;
+}
+.mod_album_info .album_text .ratings {
+    display: block;
+    width: 120px;
+    height: 59px;
+    margin: 0 0 20px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.mod_album_info .album_text h2 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 380px;
+    margin: 0 0 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 28px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.mod_album_info .album_text p {
+    line-height: 24px;
+    width: 270px;
+    overflow: hidden;
+}
+
+.mod_album_info .album_text .album_assess {
+    width: 110px;
+    position: absolute;
+    top: 116px;
+    right: 0;
+}
+
+.mod_album_info .album_text .album_assess strong {
+    display: block;
+    font-size: 32px;
+    height: 35px;
+    line-height: 35px;
+    color: #ff7b10;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.mod_album_op {
+    width: 290px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mod_album_info .album_detail {
+    clear: both;
+    padding: 20px 0 0;
+    position: relative;
+}
+
+.mod_microblog {
+    position: relative;
+    zoom: 1;
+}
+
+.mod_microblog .add_comment {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    zoom: 1;
+}
+
+.mod_microblog .add_comment textarea {
+    width: 698px;
+    height: 130px;
+    overflow: hidden;
+    border: #D9D9D9 solid 1px;
+    margin: 0 0 5px;
+}
+
+.mod_microblog .add_comment button {
+    float: right;
+    color: #0F820C;
+    border: 1px solid #DDD;
+    display: inline-block;
+    line-height: 20px;
+    line-height: 23px\9;
+    height: 23px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 0 #F2F2F2;
+}
+
+.mod_microblog .comment_list .item {
+    position: relative;
+    min-height: 50px;
+    _height: 50px;
+    margin: 0 0 20px 0;
+    padding: 0 15px 20px 75px;
+    zoom: 1;
+    border-bottom: #C6C6C6 dotted 1px;
+    word-wrap: break-word;
+}
+
+.mod_microblog .comment_list .item .avatar {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.mod_microblog .comment_list .item h5 {
+    margin: 0 0 5px 0;
+    font-weight: normal;
+    display: inline;
+}
+
+.mod_microblog .comment_list .item .msg_txt {
+    display: inline;
+    word-wrap: break-word;
+}
+
+.mod_microblog .comment_list .item p {
+    padding: 5px 0 0;
+    color: #A3A3A3;
+    overflow: hidden;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.layout_2 .side_container {
+    width: 220px;
+    float: right;
+}
+
+.ratings_star_on {
+    background-position: 0px 0px;
+}
+
+.ratings_star_off {
+    background-position: 0 -26px;
+}
+
+.ratings_star {
+    background-image: url(../../../images/stars.png);
+    background-repeat: no-repeat;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    width: 23px;
+    height: 23px;
+    float: left;
+}
+
+.mod_user_list .title h3 {
+    width: 154px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(img/other_title_bg.png?max_age=19830211&d=20130507102817) no-repeat 0 0;
+}
+
+.side_mod_point p {
+    margin: 20px 0;
+}
+
+.mod_other_album .title h3 {
+    width: 124px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(img/other_title_bg.png?max_age=19830211&d=20130507102817) no-repeat 0 -31px;
+}
+
+.mod_other_album .mod_more {
+    width: 37px;
+    height: 14px;
+    position: absolute;
+    left: 124px;
+    top: 10px;
+}
+
+.mod_other_album .mod_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+.side_singers {
+    position: relative;
+    margin: 0 0 13px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.side_singers .title {
+    height: 30px;
+}
+
+.side_singers .title h3 {
+    width: 72px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(img/other_title_bg.png) no-repeat 0 -124px;
+}
+
+.side_singers .mod_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+.side_singers .similar_singer_list {
+    margin: 13px 0;
+    width: 252px;
+    overflow: hidden;
+}
+
+.favor_fans {
+    border-bottom: 0 none;
+}
+.favor_fans {
+    position: relative;
+    border-bottom: solid 1px #e4e4e4;
+    margin: 0 0 13px;
+}
+
+.favor_fans .title, .favor_fans .my_title {
+    height: 30px;
+}
+
+
+.favor_fans .title h3, .favor_fans .my_title h3 {
+    width: 74px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(img/other_title_bg.png) no-repeat 0 -155px;
+}
+
+.favor_fans .mod_content {
+    width: 220px;
+    overflow: hidden;
+}
+
+.favor_fans .follower_list {
+    width: 252px;
+    overflow: hidden;
+    margin: 13px 0 0;
+}
+
+
+.favor_fans .follower_list li {
+    float: left;
+    width: 50px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 34px 0 0;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: keep-all;
+    white-space: nowrap;
+    table-layout: fixed;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}

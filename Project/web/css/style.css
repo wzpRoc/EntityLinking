@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+table {
+}
+
+th {
+    font-size: 14px;
+    /*text-align: center;*/
+}
+
+td {
+    font-size: 12px;
+}
+
+tr a {
+    color: #336699;
+    text-decoration: none;
+}
+
+textarea {
+    font-size: 12px;
+    color: #333333;
+}
+
+input {
+    border: 1px solid #A09D9D;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 1px 2px;
+    color: #333333;
+    vertical-align: middle;
+}
+
+select {
+    cursor: pointer;
+}
+
+body {
+    height: 100%;
+    font: 13px / 1.5 tahoma, arial, 微 软 雅 黑;
+}
+
+button {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#mainContent {
+    margin-left: 200px;
+    width: 800px;
+    /*background-color: #FFFFFF;*/
+
+    background-color: #FFF5C2;
+    /*text-align: center;*/
+}
+
+#fullContent   #mainContent {
+    min-height: 600px;
+    width: 840px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#mainContent #navigationArea {
+    color: #336699;
+    background-color: #F7FAFF;
+    /*border-bottom: 2px dotted #D8D8D8;*/
+    display: block;
+    margin: 0;
+    padding: 0 5px;
+    text-align: right;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#navigationArea div {
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+}
+
+#navigationArea .highLight {
+    background-color: #336699;
+}
+
+#navigationArea .highLight a {
+    color: #F7FAFF !important;
+}
+
+#mainContent #navigationArea a {
+    color: #336699;
+    text-decoration: none;
+    /*margin-left: 1px;*/
+    /*margin-right: 1px;*/
+}
+
+#mainContent #titleArea {
+    background-color: #EEEEEE;
+    /*border-bottom: 2px dotted #D8D8D8;*/
+    display: block;
+    /*margin: 0 0 0 3px;*/
+    padding: 5px 10px;
+    text-align: left;
+    /*width: 820px;*/
+    word-wrap: break-word;
+}
+
+#mainContent #titleArea h1 {
+    color: #494949;
+    font-size: 15px;
+    /*font-weight: bold;*/
+    line-height: 1.1;
+}
+
+.clearFieldValue {
+    color: red;
+    cursor: pointer;
+}
+
+.selectedAnchor, .unselectedAnchor {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 2px 5px;
+}
+
+.selectedAnchor {
+    color: #ffffff;
+    background-color: rgb(51, 153, 255);
+}
+
+.unselectedAnchor {
+    color: #666666;
+    background-color: #CCCCCC;
+}
+
+#pageNavigationArea {
+    text-align: center;
+    /*margin-top: 5px;*/
+    /*margin-left: 5px;*/
+    color: #666666;
+}
+
+#pageNavigationArea a {
+    color: #336699;
+    text-decoration: none;
+}
+
+#pageNavigationArea span {
+    padding: 5px;
+    text-align: center;
+}
+
+#pageNavigationArea input {
+    color: #666666;
+}
+
+#pageNavigationArea .currentPageNo {
+    color: #ffffff;
+    background-color: #336699;
+}
+
+.gray {
+    color: gray !important;
+}
+
+#text_logo {
+    left: 100px;
+    position: absolute;
+    top: 10px;
+}
+
+#user_info {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+#user_info a {
+    color: white;
+}
+
+#user_logout {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.readOnly {
+    background-color: #F0F0F0;
+}
+
+#showImage {
+    float: right;
+    position: absolute;
+    right: 200px;
+    top: 170px;
+    filter: alpha(opacity = 50);
+}
+
+#showImage img {
+    width: 350px;
+}
+
+#queryEntityFrame {
+    left: 330px;
+    top: 625px;
+}
+
+#queryTitle {
+    border-bottom: 1px solid #007AB0;
+}
+
+.queryForm {
+    /*text-align: center;*/
+    margin-top: 3px;
+}
+
+.queryForm button {
+    margin-left: 5px;
+}
+
+#queryTip {
+    font-size: 13px;
+    font-weight: bold;
+    color: #007AB0;
+    border-top: 1px solid #007AB0;
+    margin-top: 3px;
+}
+
+#queryEntityFrame ul {
+    font-size: 12px;
+    margin-top: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#queryEntityFrame ul li {
+    padding: 3px 20px 3px 5px;
+    cursor: pointer;
+    border-bottom: 1px dotted #0B4C77;
+}
+
+#currentAncestors {
+    font-weight: bold;
+    color: #007AB0;
+    margin-top: 5px
+}
+
+.optionFrame {
+    background-color: #eeeeff;
+    border: 1px solid #007AB0;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    position: absolute;
+}
+
+.optionTitle {
+    position: relative;
+}
+
+.optionTitle h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.optionTitle a {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.comment {
+    color: grey;
+    font-style: italic;
+}

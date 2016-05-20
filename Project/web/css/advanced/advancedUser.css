@@ -1,0 +1,294 @@
+#irica_advanced_title{
+	bottom: 8px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    left: 35%;
+    position: absolute;
+}
+
+.box h2{
+	cursor: pointer;
+}
+
+.box h2 a{
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	display: none;
+}
+
+#content_center {
+	width: 840px;
+}
+
+.articleInfo {
+    color: #7AADE0;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.info_item{
+	font-weight: bold;
+}
+
+.cluster_box h3 a.goToDetail{
+    border: 1px solid #AECBEA;
+    color: #002C58;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 10px;
+    padding: 2px 2px 0 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cluster_box h3 a.goToDetail:hover{
+	background-color: #EEEEEE;
+}
+
+.class_info{
+	margin-left:10px;
+}
+
+.entities{
+	
+}
+
+.entityBox h2{
+	background-color: #007AB0;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 3px;
+}
+
+table{
+	margin-left: 10px;
+}
+
+.locationview td div{
+	max-width: 180px;
+	overflow: hidden;
+}
+
+.submit_tip{
+	color: #ff6600;
+	position: absolute;
+	right: 70px;
+	font-size: 14px;
+	display: none;
+}
+
+.inputArea{
+	height: 20px;
+	border: 1px solid silver;
+}
+
+#admin_add_new{
+	position:relative;
+	height: 24px;
+}
+
+#admin_add_new a{
+	color: blue;
+}
+
+#admin_add_new a:hover{
+	color: #ff6600;
+}
+
+#admin_add_new span{
+	position: absolute;
+	right: 5px;
+}
+
+.optionFrame{
+	background-color: #E6F9FE;
+    border: 1px solid #007AB0;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    position: absolute;
+}
+
+.optionTitle {
+	position: relative;
+}
+
+.optionTitle h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.optionTitle a {
+	position: absolute;
+	right: 5px;
+	top: 0;	
+}
+
+#queryEntityFrame{left: 330px; top: 625px;}
+#queryTitle {border-bottom: 1px solid #007AB0;}
+.queryForm {text-align: center; margin-top: 3px;}
+.queryForm button {margin-left: 5px;}
+#queryTip{font-size: 13px; font-weight:bold; color: #007AB0; border-top: 1px solid #007AB0; margin-top:3px;}
+#queryEntityFrame ul {font-size: 12px; margin-top: 4px; max-height:150px; overflow-y: auto;}
+#queryEntityFrame ul li {padding: 3px 20px 3px 5px; cursor: pointer; border-bottom: 1px dotted #0B4C77;}
+#queryEntityFrame ul li:hover {background: url('../../annoTool/images/yes.png') no-repeat 99% 50% #aaa}
+#currentAncestors {font-weight:bold; color: #007AB0; margin-top: 5px}
+
+#countryFrame {
+    left: 360px;
+    top: 150px;
+    width: 580px;
+}
+
+.simpleCountryList li{ 
+	float: left;
+	min-width: 70px;
+	margin: 1px 3px;
+	cursor: pointer;
+}
+
+.simpleCountryList li:hover{ 
+	background-color: #AAA;
+}
+
+/* 锟斤拷锟斤拷锟斤拷锟斤拷锟侥碉拷页锟斤拷锟斤拷锟斤拷锟斤拷式*/
+#eTypeListFrame {
+	display: none;
+	position: absolute;
+	font-size: 12px;
+	padding: 3px;
+	box-shadow: 0 0 5px; 
+	background: none repeat scroll 0 0 #E6F9FE;
+    border: 1px solid #007AB0;
+    border-radius: 3px 3px 3px 3px;
+    width: 180px;
+}
+
+#eTypeListFrame h3{
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid;	
+	position: relative;
+}
+
+#eTypeListFrame h3 a {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #FF6600;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.eTypeList{
+	float:left;
+	margin: 0 10px;
+}
+
+#eTypeListFrame li{
+	padding: 2px;
+}
+
+#eTypeListFrame li:hover{
+	background: #AAA;
+	cursor: pointer;
+}
+
+.addEventType{
+	font-size: 11px;
+}
+
+.addDocCate{
+	font-size: 11px; margin-left: 5px; display: inline-block;
+}
+
+.cateInst{
+	margin-right: 5px;
+}
+
+#docInfoFrame {
+	display: none;
+	padding: 3px;
+	width: 400px;
+	max-height: 250px;
+	overflow-y: auto;
+	font-size: 12px;
+	position: absolute;
+	box-shadow: 0 0 5px; 
+	background: none repeat scroll 0 0 #E6F9FE;
+    border: 1px solid #007AB0;
+    border-radius: 3px 3px 3px 3px;
+}
+#docInfoFrame .itemTitle{
+	font-weight: bold;
+}
+.option{display:inline-block; margin-right: 15px; margin-bottom: 3px;}
+#aliaseTable{border: none; margin-top: 2px;}
+.deleteAliase{display: none;}
+.ta_c {text-align: center;}
+#tip_combine{color: #ff6600; display:none}
+#option_combine{text-align: center; display: none;}
+.bt_option{float:right;}
+.locheader{height: 24px;}
+#tip_addingName{display:none;}
+
+#categoryFrame {display: none; position: absolute; width: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999; top: 0; left: 0;}
+#categoryBox {display: block; width: 1100px; margin: 0 auto; background-color: white;}
+#categoryBox h2{ font-weight: bold; border-bottom: 1px dotted #12B0E5; padding: 2px; position: relative;}
+#categoryBox h2 a {position: absolute; right: 5px; font-size: 15px; color: #ff6600;}
+#categoryBox ul{ font-size: 14px;}
+#categoryBox ul li {background: url("../../annoTool/images/treeline_dot_left.png") repeat-y scroll 0 0 transparent;}
+#categoryBox ul li.last{background: url("../../annoTool/images/treeline_dot_left_bottom.png") no-repeat scroll 0 0 transparent;}
+#categoryBox ul li a{background: url("../../annoTool/images/treeline_dot_middle_bottom.png") no-repeat scroll 0 10px transparent; padding-left: 20px; display: block; height: 20px; line-height: 20px; color: #000; text-decoration: none; font-size: 13px;}
+#categoryBox ul li a.leaf{background: url("../../annoTool/images/treeline_dot_middle.png") no-repeat scroll 0 10px transparent;}
+#categoryBox .categoryColumn > ul > li > .hasSubList{font-weight: bold;}
+#categoryBox .categoryColumn > ul > li > .leaf{font-weight: bold;}
+#categoryBox ul li a:hover{background-color: #aaa}
+.categoryColumn{float: left; margin-right: 15px;}
+.categoryColumn ul{margin-left: 10px;}
+.cateList {display: inline-block;}
+.cateList li{border: 1px solid #007AB0; border-radius: 3px 3px 3px 3px; display: inline-block; margin-right: 3px; padding: 0 2px; margin-top: 2px; line-height: 18px;}
+.cateList li span {color: red; cursor: pointer; font-size: 11px; font-weight: bold; margin-left: 3px; position: relative;  top: 0;}
+
+#tcalGrid, #tcalControls {
+    margin-left: 0;
+}
+
+.inpage_header {
+	color: #007AB0;
+	font-weight: bold;
+	font-size: 15px;	
+	position: relative;
+	width: 98%
+}
+
+.inpage_header .header_tip {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #ff6600;	
+}
+
+.tableborder tbody tr:hover{
+	background-color: #DBEAF5;
+}
+
+.tableborder tbody tr.header:hover{
+	background-color: #8CBDEF;
+}
+
+.tableborder tbody tr.cur_edit{
+	background-color: #DBEAF5	
+}
+#clusterBody tbody tr{
+
+	background-color:"ffffff" 
+	background-color: rgb(255, 255, 255); 
+	onmouseout="this.style.backgroundColor='#ffffff'"
+    onmouseover="this.style.backgroundColor='#DBEAF5'"
+}
+

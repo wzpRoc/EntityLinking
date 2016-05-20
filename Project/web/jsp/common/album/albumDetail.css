@@ -1,0 +1,263 @@
+/************************************专辑信息展示*************************************/
+.albumInfo {
+    float: left;
+    width: 550px;
+}
+
+.albumPic {
+    float: left;
+    margin: 20px 20px 20px 20px;
+    width: 240px;
+}
+
+.songPic {
+    float: left;
+    margin: 20px 20px 20px 20px;
+    width: 240px;
+    height: 240px ;
+    background-color: #FFFFFF;
+}
+
+.albumParameter {
+    float: left;
+    width: 240px;
+    height: 240px;
+    background-color: #FFFFFF;
+    margin: 20 20 0 0;
+}
+
+.albumParameter h2 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 380px;
+    margin: 0 10px 14px;
+    font-family: "Microsoft YaHei";
+    font-size: 28px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.albumParameter p {
+    color: #8B8B8B;
+    font-size: 14px;
+    line-height: 1.5em;
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+    width: 240px;
+    overflow: hidden;
+    margin: 0 0 5px 14px;
+}
+
+.album_Cover {
+    width: 100%;
+}
+
+.song_Cover {
+    width: 50%;
+    margin: 35px 60px 8px 60px;
+}
+
+.songTitle .songLabel {
+    font-family: "Microsoft YaHei";
+    margin-left: 20px;
+
+}
+
+.songTitle .songValue {
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+
+.albumIntroduction {
+    margin: 6px 20px 20px 20px;
+    width: 500px;
+    float: left;
+    height: 239px;
+    background-image: url("../../../img/front/albumIntroduction.png");
+    background-size: 100%;
+}
+
+.albumIntroduction h2 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 240px;
+    margin: 10px 40px 10px 30px;
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+
+
+.albumIntroduction p {
+    color: #8B8B8B;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: "Microsoft YaHei";
+    line-height: 24px;
+    width: 450px;
+    overflow: hidden;
+    padding: 10px 5px 0 28px;
+
+}/*************************************** 专辑曲目列表 *******************************************/
+.songList {
+    /*background-color: #FFF5C2;*/
+    float: left;
+    width: 240px;
+    height: 504px;
+    margin: 20px 10px 0 0;
+    background-image: url("../../../img/front/albumSongList.png");
+    background-size: 100%;
+}
+
+.songList h2 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 240px;
+    margin: 10px 0px 10px 60px;
+    font-family: "Microsoft YaHei";
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.songList h3 {
+    max-height: 72px;
+    _height: 72px;
+    line-height: 36px;
+    width: 240px;
+    margin: 10px 0px 10px 60px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.songList ul {
+    margin-top: 25px;
+}
+
+
+.songList li  {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: "Microsoft YaHei";
+    line-height: 24px;
+    width: 240px;
+    overflow: hidden;
+    margin: 8px 0 5px 40px;
+}
+
+.songlist li a {
+    color: #8B8B8B;
+}
+
+/************************************  评论 *******************************************/
+.albumComment {
+    float: left;
+    margin: 10px 20px 10px 20px;
+    width: 780px;
+    min-height: 200px;
+}
+
+.subTitle {
+    background: url("../../../img/front/albumSubTitle.jpg") no-repeat left;
+    background-size: 150px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color: #FFFFFF;
+    height: 50px;
+    padding: 12px 35px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.commentContent {
+    background-color: #FFFFFF;
+    min-height: 100px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.commentContent  .item .avatar {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.commentContent  .item .avatar img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.commentContent .item {
+    position: relative;
+    min-height: 50px;
+    _height: 50px;
+    margin: 0 0 20px 0;
+    padding: 0 15px 20px 75px;
+    zoom: 1;
+    border-bottom: #C6C6C6 dotted 1px;
+    word-wrap: break-word;
+    font-family: "Microsoft YaHei";
+
+}
+
+.commentContent .item h5{
+    margin: 0 0 5px 0;
+    font-weight: normal;
+    display: inline;
+}
+
+.commentContent .item .msg_txt{
+    display: inline;
+    word-wrap: break-word;
+}
+
+.commentContent .item p{
+    padding: 5px 0 0;
+    color: #A3A3A3;
+    overflow: hidden;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.myComment {
+    float: left;
+    margin: 0px 20px 20px 20px;
+    width: 780px;
+    min-height: 200px;
+}
+
+.myComment .addComment {
+    min-height: 100px;
+    margin: 0 10px;
+}
+
+.myComment textarea {
+    width: 760px;
+    height: 130px;
+    overflow: hidden;
+    border: #ffffff solid 1px;
+    margin: 0 0 5px;
+}
+
+.myComment .addButton {
+    float: right;
+    margin-right: 10px;
+}

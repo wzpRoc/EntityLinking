@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div style="width: 100%; text-align: center;" id="categoryDrugList">
+        <select class="multipleSelect" style="width: 185px; height: 175px; display: inline; " id="categoryDrugListSelect1" multiple=""></select>
+        <div style="height: 175px; margin-top: auto; display: inline; ">
+            <input type="button" value="选中&gt;&gt;" style="  width: 80px;height: 25px; " id="add_categoryDrugList">
+            <input type="button" value="&lt;&lt;选中" style=" width: 80px;height: 25px;" id="remove_categoryDrugList">
+            <input type="button" value="全部&gt;&gt;" style=" width: 80px;height: 25px; " id="addAll_categoryDrugList">
+            <input type="button" value="&lt;&lt;全部" style=" width: 80px;height: 25px; " id="removeAll_categoryDrugList">
+        </div>
+        <select class="multipleSelect" name="categoryDrugListSelect2" style="width: 185px; height: 175px; margin-left: auto; display: inline; " id="categoryDrugListSelect2" multiple="">
+            <option value="" selected="selected"></option>
+        </select>
+</div>
+
+
+</body>
+</html>

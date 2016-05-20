@@ -1,0 +1,6 @@
+<action name="wikiFactList" class="org.ailab.entityLinking.wim.wikiFact.WikiFactListAction">
+    <result>/jsp/wikiFact/wikiFactList.jsp</result>
+</action>
+<action name="wikiFactDetail" class="org.ailab.entityLinking.wim.wikiFact.WikiFactDetailAction">
+    <result>/jsp/wikiFact/wikiFactDetail.jsp</result>
+</action>

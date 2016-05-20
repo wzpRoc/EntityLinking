@@ -1,0 +1,6 @@
+<action name="candidateEntityList" class="org.ailab.entityLinking.wim.candidateEntity.CandidateEntityListAction">
+    <result>/jsp/candidateEntity/candidateEntityList.jsp</result>
+</action>
+<action name="candidateEntityDetail" class="org.ailab.entityLinking.wim.candidateEntity.CandidateEntityDetailAction">
+    <result>/jsp/candidateEntity/candidateEntityDetail.jsp</result>
+</action>

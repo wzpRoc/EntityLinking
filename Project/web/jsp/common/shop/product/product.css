@@ -1,0 +1,495 @@
+/*----------------列表页面样式-----------------------*/
+body {
+    background-color: #F2F2F2;
+}
+
+#mainContent .productImg img {
+    width: 200px;
+    margin: 0 15px;
+
+}
+
+.product {
+    float: left;
+    line-height: 1.5;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 400px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+    /*border-bottom: 1px solid #000000;*/
+    background-image: url("../../../../img/front/product.png");
+    background-size: 250px;
+}
+
+.productImg {
+    display: block;
+    float: none;
+    height: 230px;
+    width: 230px;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 250px;
+    margin: 0 auto;
+}
+
+.productPrice {
+    /*color: #CC0000;*/
+    font-family: arial, verdana, sans-serif !important;
+    font-size: 16px;
+    height: 30px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+}
+
+.productTitle {
+    font-family: 微 软 雅 黑;
+    font-size: 12px;
+    height: 90px;
+    text-align: left;
+    overflow: hidden;
+    padding: 2px;
+    margin: 5px 0;
+}
+
+.productTitle, .productTitle a {
+    color: #666666;
+}
+
+.productTitle a .H, .productTitle a em {
+    color: #CC6600;
+}
+
+.productTitle a:hover {
+    color: #C10001 !important;
+}
+
+.productTitle a:visited {
+    color: #551A8B !important;
+}
+
+.productTitle b {
+    color: #EF0049;
+}
+
+.productCategory{
+    display: none;
+}
+.operation img {
+    width: 80px;
+}
+.operation span{
+    background-color: #5F6772;
+    color: #FFE047;
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.compare {
+    width: 80px;
+    float: left;
+}
+
+.addToCart, .addToWish {
+    width: 80px;
+    float: left;
+}
+
+
+#conditionArea {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    margin: 5px 10px;
+    padding: 5px 12px;
+    width: 96%;
+}
+
+#conditionArea .shopLabel {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0px;
+}
+
+/*----------------详细页面样式-----------------------*/
+#product-intro {
+    padding-left: 370px;
+    position: relative;
+}
+
+#preview {
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 352px;
+}
+
+#preview img {
+    width: 95%;
+}
+
+#descriptionHtml {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#summary {
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#summary li {
+    clear: both;
+    overflow: hidden;
+    padding: 6px 0;
+}
+
+#choose {
+    float: left;
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+#choose li {
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+#choose-btns .btn {
+    float: left;
+    height: 38px;
+    margin-top: 8px;
+}
+
+#product-comment {
+    height: auto !important;
+    min-height: 100px;
+}
+
+#summary td {
+    font-size: 15px;
+    padding: 5px;
+    color: #000000;
+}
+
+#summary  input {
+    padding: 5px;
+    vertical-align: middle;
+    width: 60px;
+}
+
+#summary div {
+    text-align: left;
+}
+
+#price {
+    width: 100%;
+    height: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #5F6772;
+    padding: 10px;;
+    width: 100%;
+    box-shadow: 5px 5px 5px #AAAAAA;
+    margin: 10px 0;
+}
+
+#currentPriceLabel {
+    width: 50px;
+    height: 50px;;
+    line-height: 50px;
+    vertical-align: middle; /*对div不起作用，用line-height可以*/
+}
+
+#currentPrice {
+    font-family: Arial;
+    font-size: 34px;
+}
+
+#originalPriceLabel {
+    width: 50px;
+    height: 20px;;
+    line-height: 20px;
+    vertical-align: middle; /*对div不起作用，用line-height可以*/
+}
+
+#originalPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+#name h1 {
+    font: 700 16px/1.5em Arial, Verdana, "microsoft yahei";
+}
+
+#name h1, #name strong {
+    font-family: arial, "microsoft yahei";
+    overflow: hidden;
+    width: 620px;
+}
+
+#name strong {
+    color: #E4393C;
+    display: block;
+    font-size: 16px;
+}
+
+#choose div {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+}
+
+#btnBuy {
+    float: left;
+    background-color: #5F6772;
+    color: #FFFFFF;
+    margin: 15px 0 0 100px;
+}
+
+#btnAppend {
+    margin-left: 250px;
+    margin-top: 15px;
+    background-color: #3E454D;
+    color: #FFFFFF;
+}
+
+tr a {
+    border: 1px solid #A09D9D;
+    border-radius: 2px;
+    height: 15px;
+    line-height: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 15px;
+    cursor: pointer
+}
+
+.subTitle {
+    background: url("../../../../img/front/subTitle.png") no-repeat left;
+    background-size: 150px;
+    font-size: 18px;
+    height: 50px;
+    padding: 12px 35px;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+.info-block {
+    background-color: #FFFFFF;
+    box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);
+    border-radius: 0 15px 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*----------------商品评论-----------------*/
+#product-comment {
+    min-height: 100px;
+
+}
+
+#commentList li, #consultList li {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+#product-comment .commentUser, #consultList .commentUser {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #666666;
+}
+
+#product-comment .commentContent, #consultList .commentContent {
+    color: #AF874D;
+    padding: 10px 0px;
+    margin: 10px;
+
+}
+
+#product-comment .commentReply, #consultList .commentReply {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #E5E5E5;
+    margin: 10px 6px;
+    padding: 10px 5px;
+    position: relative;
+}
+
+#product-comment .commentTime {
+    font-size: 12px;
+    margin: 15px 0 0;
+    color: #666666;
+
+}
+
+/*------------------商品咨询-----------------*/
+#productConsult {
+    min-height: 300px;
+}
+
+#consultArea {
+    margin: 10px 0px;
+    width: 97%;
+}
+
+#consultBtn {
+    float: right;
+    right: 10px;
+}
+
+/*-----------------商品详细参数-------------------*/
+
+#productParam {
+    margin: 5px 10px;
+}
+
+#product-info li {
+    display: inline;
+    width: 45%;
+    float: left;
+    padding: 5px;
+    color: #666666;
+}
+
+/*----------------购物车样式-----------------------*/
+#shoppingCart {
+    width: 210px;
+    height: 30px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: #FFFFFF;
+    background-color: #920B0B;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    line-height: 30px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#cartProducts {
+    background-color: #E4E4E4;
+    border: 2px solid #FFFFFF;
+    bottom: 30px;
+    z-index: 101;
+    position: absolute;
+    width: 230px;
+    border-radius: 3px;
+    padding: 0px 5px;
+    overflow: hidden;
+}
+
+#cartProducts  .cartProduct {
+    background-color: #FFFFFF;
+    height: 50px;
+    color: #000000;
+    width: 225px;
+    border-radius: 3px;
+    margin: 5px 2px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+#cartProducts  .cartProduct img {
+    width: 40px;
+    /*height: 40px;*/
+    margin: 2px;
+    line-height: 40px;
+}
+
+#cartProducts  .cartProduct .cartImg {
+    width: 40px;
+    /*height: 40px;*/
+    margin: 2px;
+    float: left;
+    line-height: 40px;
+}
+
+#cartProducts  .cartProduct .cartName {
+    width: 70px;
+    float: left;
+    height: 100%;
+}
+
+#cartProducts  .cartProduct .cartPrice {
+    width: 40px;
+    float: left;
+}
+
+#cartProducts  .cartProduct .quantity {
+    width: 30px;
+    float: left;
+}
+
+#cartProducts  .cartProduct .deleteProduct {
+    width: 30px;
+    float: left;
+    padding-top: 14px;
+}
+
+#cartProducts .cartProduct .deleteProduct img {
+    height: 16px;
+    width: 16px;
+}
+
+#shoppingCart .cartProduct li {
+    display: inline;
+    width: 60px;
+    height: 100%;
+
+}
+
+#cartProducts #viewAll {
+    background-color: #B87337;
+    border-radius: 3px;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 2px;
+    width: 225px;
+}
+
+#cartProducts #viewAll a {
+    color: #FFFFFF;
+}
+
+#productSum {
+    width: 20px;
+    height: 20px;
+}
+
+#fullContent {
+    background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

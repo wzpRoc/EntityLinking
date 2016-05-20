@@ -1,0 +1,6 @@
+<action name="doc_lobList" class="org.ailab.entityLinking.wim.doc_lob.Doc_lobListAction">
+    <result>/jsp/doc_lob/doc_lobList.jsp</result>
+</action>
+<action name="doc_lobDetail" class="org.ailab.entityLinking.wim.doc_lob.Doc_lobDetailAction">
+    <result>/jsp/doc_lob/doc_lobDetail.jsp</result>
+</action>

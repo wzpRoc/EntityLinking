@@ -1,0 +1,6 @@
+<action name="linkResultList" class="org.ailab.entityLinking.wim.linkResult.LinkResultListAction">
+    <result>/jsp/linkResult/linkResultList.jsp</result>
+</action>
+<action name="linkResultDetail" class="org.ailab.entityLinking.wim.linkResult.LinkResultDetailAction">
+    <result>/jsp/linkResult/linkResultDetail.jsp</result>
+</action>

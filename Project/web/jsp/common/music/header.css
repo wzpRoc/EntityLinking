@@ -1,0 +1,96 @@
+body{
+    background-color: #EEEEEE;
+}
+
+#header {
+    overflow: hidden;
+    width: 100%;
+    background-color: #FFE047;
+    height: 80px;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#footer{
+    overflow: hidden;
+    width: 100%;
+    background-color: #5F6772;
+    height: 80px;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#footer #slogan{
+    background-color:  #252733;
+    font-size: 13px;
+    color: #FCE039;
+    width: 200px;
+    height: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#header .logo{
+    background-color:  #252733;
+    bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#mainContent{
+    width: 1000px;
+    /*width: 100%;*/
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+#buttons{
+    margin-left: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#buttons .button{
+    background-color: #FFF5C2;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 0;
+    text-align: center;
+}
+#login{
+    float: left;
+    width: 80px;
+    margin-left: 400px;
+}
+
+#register{
+    float: left;
+    width: 80px;
+    margin-left: 5px;
+}
+
+#search{
+    float: left;
+    width: 100px;
+    margin-left: 30px;
+}
+#search input{
+    background-color: #FFF5C2;
+    border: 0 none;
+    border-radius: 10px;
+    height: 25px;
+    padding: 0 10px;
+    width: 150px;
+}

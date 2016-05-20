@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+  "http://getahead.org/dwr/dwr20.dtd">
+<dwr>
+  <allow>
+    <create creator="new" javascript="AjaxInterface">
+      <param name="class" value="org.ailab.ajax.AjaxInterface" />
+    </create>
+    <create creator="new" javascript="AjaxLogin">
+      <param name="class" value="org.ailab.ajax.AjaxLogin" />
+    </create>
+    <convert match="org.ailab.wimfra.core.BLMessage" converter="bean" javascript="BLMessage"></convert>
+    <convert match="java.lang.Exception" converter="exception"></convert>
+    <convert match="java.lang.StackTraceElement" converter="bean"></convert>
+    <convert match="java.lang.Object" converter="bean"></convert>
+    <convert match="freemarker.template.TemplateException" converter="exception"></convert>
+  </allow>
+</dwr>

@@ -1,0 +1,279 @@
+/*----------------列表页面样式-----------------------*/
+body {
+    background-color: #F2F2F2;
+    color: #8B8B8B;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+
+}
+
+
+.album {
+    background-color: #FFF5C2;
+    float: left;
+    line-height: 1.5;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 400px;
+    margin: 0 10px 10px 0;
+    /*border: 2px solid #EDF5F0;*/
+    background-image: url("../../../img/front/product.png");
+    background-size: 250px;
+    /*box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);*/
+}
+
+.albumImg {
+    display: block;
+    float: none;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px 0px 0px 28px;
+    /* padding: 15px; */
+    line-height: 230px;
+}
+
+.albumImg img {
+    height: 90%;
+    width: 90%;
+    /*width: 80%;*/
+}
+
+.albumComment {
+    padding: 0 0 0 0;
+    margin: 0 10px 0 10px;
+    height: 30%;
+}
+
+.albumComment p {
+    margin: 0 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+.enter_label {
+    padding: 10px 10px 10px;
+    float: right;
+    margin: 0 0 0 0;
+    cursor: pointer;
+}
+
+.favor_label {
+    padding: 10px 10px 10px;
+    float: left;
+    margin: 0 0 0 0;
+    cursor: pointer;
+}
+
+
+.albumTitle {
+    font-family: 微 软 雅 黑;
+    font-size: 12px;
+    height: 20px;
+    text-align: left;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.albumTitle, .albumTitle a {
+    color: #666666;
+}
+
+.albumTitle a .H, .albumTitle a em {
+    color: #CC6600;
+}
+
+.albumTitle a:hover {
+    color: #C10001 !important;
+}
+
+.albumTitle a:visited {
+    color: #551A8B !important;
+}
+
+.albumTitle b {
+    color: #EF0049;
+}
+
+.album:hover .albumTitle, .album-hover .albumTitle {
+    color: #CC0000;
+}
+
+#mainContent {
+    width: 800px;
+    margin-left: 200px;
+    /*background-color: #FFF5C2;*/
+    background-color: #FFF5C2;
+}
+
+#conditionArea {
+    background-color: #FFF5C2;
+    /*border-bottom: 1px solid #ECECEC;*/
+    /*box-shadow: 5px 0 8px -2px rgba(190, 189, 189, 0.74);*/
+    padding: 5px 12px;
+
+    width: 100%;
+    margin: auto;
+}
+
+#searchArea {
+    height: 30px;
+    width: 800px;
+    margin: 20px 0 10px;
+}
+
+#conditionArea input {
+    width: 250px;
+    height: 30px;
+    margin-left: -4px;
+    border: 2px solid #EDF5F0;
+}
+
+#conditionArea .selectInput {
+    width: 250px;
+    height: 30px;
+    float: right;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+    border: 2px solid #EDF5F0;
+    color: #8B8B8B;
+    font-size: 14px;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+
+}
+
+
+
+#fullContent {
+    background-color: #F2F2F2;
+}
+
+
+/*************************************** 音乐清单 **********************************************/
+#musicCart {
+    width: 210px;
+    height: 30px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: #FFFFFF;
+    background-color: #920B0B;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    line-height: 30px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#cartMusics {
+    background-color: #E4E4E4;
+    border: 2px solid #FFFFFF;
+    bottom: 30px;
+    z-index: 101;
+    position: absolute;
+    width: 230px;
+    border-radius: 3px;
+    padding: 0px 5px;
+    overflow: hidden;
+}
+
+#cartMusics  .cartMusic {
+    background-color: #FFFFFF;
+    height: 50px;
+    color: #000000;
+    width: 225px;
+    border-radius: 3px;
+    margin: 5px 2px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+#cartMusics  .cartMusic img {
+    width: 40px;
+    /*height: 40px;*/
+    margin: 2px;
+    line-height: 40px;
+}
+
+#cartMusics  .cartMusic .cartImg {
+    width: 40px;
+    /*height: 40px;*/
+    margin: 2px;
+    float: left;
+    line-height: 40px;
+}
+
+#cartMusics  .cartMusic .cartName {
+    width: 70px;
+    float: left;
+    height: 100%;
+}
+
+#cartProducts  .cartMusic .cartPrice {
+    width: 40px;
+    float: left;
+}
+
+#cartProducts  .cartMusic .quantity {
+    width: 30px;
+    float: left;
+}
+
+#cartProducts  .cartMusic .deleteProduct {
+    width: 30px;
+    float: left;
+    padding-top: 14px;
+}
+
+#cartMusics .cartMusic .deleteProduct img {
+    height: 16px;
+    width: 16px;
+}
+
+#musicCart .cartMusic li {
+    display: inline;
+    width: 60px;
+    height: 100%;
+
+}
+
+#cartMusics #viewAll {
+    background-color: #B87337;
+    border-radius: 3px;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 2px;
+    width: 225px;
+}
+
+#cartMusics #viewAll a {
+    color: #FFFFFF;
+}
+
+#musicSum {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

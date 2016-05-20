@@ -1,0 +1,6 @@
+<action name="docWordFreqList" class="org.ailab.entityLinking.wim.docWordFreq.DocWordFreqListAction">
+    <result>/jsp/docWordFreq/docWordFreqList.jsp</result>
+</action>
+<action name="docWordFreqDetail" class="org.ailab.entityLinking.wim.docWordFreq.DocWordFreqDetailAction">
+    <result>/jsp/docWordFreq/docWordFreqDetail.jsp</result>
+</action>

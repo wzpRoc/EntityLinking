@@ -1,0 +1,17 @@
+.footer {
+    clear:both;
+    color: #8B8B8B;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: rgb(25, 24, 24)
+}
+
+.footer p {
+    margin: 0 0 10 0;
+    font-size: 14px;
+}

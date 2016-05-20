@@ -1,0 +1,6 @@
+<action name="pageAbstList" class="org.ailab.entityLinking.wim.pageAbst.PageAbstListAction">
+    <result>/jsp/pageAbst/pageAbstList.jsp</result>
+</action>
+<action name="pageAbstDetail" class="org.ailab.entityLinking.wim.pageAbst.PageAbstDetailAction">
+    <result>/jsp/pageAbst/pageAbstDetail.jsp</result>
+</action>

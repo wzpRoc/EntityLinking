@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="jar://C:/Program Files/Weka-3-6/weka-src.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/ProjectsOfOthers/JavaML/javaml-0.1.7/javaml-0.1.7-src.zip!/" />
+      <root url="jar://C:/Program Files/Weka-3-6/weka-src.jar!/src/test/java" />
+      <root url="jar://C:/Program Files/Weka-3-6/weka-src.jar!/src/main/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+  </library>
+</component>

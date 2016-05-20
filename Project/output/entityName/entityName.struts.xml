@@ -1,0 +1,6 @@
+<action name="entityNameList" class="org.ailab.entityLinking.wim.entityName.EntityNameListAction">
+    <result>/jsp/entityName/entityNameList.jsp</result>
+</action>
+<action name="entityNameDetail" class="org.ailab.entityLinking.wim.entityName.EntityNameDetailAction">
+    <result>/jsp/entityName/entityNameDetail.jsp</result>
+</action>

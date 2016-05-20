@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.ui.theme" value="simple"/>
+    <constant name="struts.multipart.maxSize" value="100000000"/>
+    <!-- 设置浏览器是否缓存静态类容 开发阶段设置为false -->
+    <constant name="struts.serve.static.browserCache" value="false"/>
+    <constant name="struts.multipart.saveDir" value="/tmp"/>
+    <!-- 设置action后缀 -->
+    <!--<constant name="struts.action.extension" value="do,action"/>-->
+
+
+    <!-- Add packages here -->
+    <package name="common" namespace="/" extends="struts-default">
+        <interceptors>
+            <!--<interceptor name="loginCode" class="org.ailab.wimfra.webServer.LoginCodeInterceptor"/>-->
+            <!--<interceptor name="authority" class="org.ailab.tem.struts2Interceptor.AuthorityInterceptor"/>-->
+            <!--<interceptor name="logger" class="org.ailab.wimfra.userLogger.LoggerInterceptor"/>-->
+            <!--<interceptor name="accessCounter" class="org.ailab.wimfra.webServer.AccessCountInterceptor"/>-->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"/>
+                <!--<interceptor-ref name="loginCode"/>-->
+                <!--<interceptor-ref name="authority"/>-->
+                <!--<interceptor-ref name="logger"/>-->
+                <!--<interceptor-ref name="accessCounter"/>-->
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="myStack"></default-interceptor-ref>
+
+        <global-results>
+            <result name="blMessageJson">jsp/blMessageJson.jsp</result>
+            <result name="message">jsp/message.jsp</result>
+            <result name="login">jsp/login.jsp</result>
+            <result name="error">jsp/error.jsp</result>
+            <result name="accessCountExceeded">jsp/accessCountExceeded.jsp</result>
+            <result name="admin" type="redirectAction">admin/index</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping result="error" exception="java.lang.Exception"/>
+        </global-exception-mappings>
+
+        <action name="login" class="org.ailab.wimfra.user.LoginAction">
+            <result>/admin/index.jsp</result>
+        </action>
+
+    </package>
+
+
+    <!-- Add packages here -->
+    <package name="admin" namespace="/admin" extends="struts-default">
+        <interceptors>
+            <!--<interceptor name="advancedAuthority"-->
+                         <!--class="org.ailab.tem.struts2Interceptor.AdvancedAuthorityInterceptor"/>-->
+            <!--<interceptor name="loginCode" class="org.ailab.wimfra.webServer.LoginCodeInterceptor"/>-->
+            <!--<interceptor name="logger" class="org.ailab.wimfra.userLogger.LoggerInterceptor"/>-->
+            <!--<interceptor name="accessCounter" class="org.ailab.wimfra.webServer.AccessCountInterceptor"/>-->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"/>
+                <!--<interceptor-ref name="loginCode"/>-->
+                <!--<interceptor-ref name="advancedAuthority"/>-->
+                <!--<interceptor-ref name="logger"/>-->
+                <!--<interceptor-ref name="accessCounter"/>-->
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="myStack"></default-interceptor-ref>
+
+        <global-results>
+            <result name="blMessageJson">../jsp/blMessageJson.jsp</result>
+            <result name="login">../jsp/login.jsp</result>
+            <result name="accessCountExceeded">../jsp/accessCountExceeded.jsp</result>
+            <result name="message">../jsp/message.jsp</result>
+            <result name="error">../jsp/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping result="error" exception="java.lang.Exception"/>
+        </global-exception-mappings>
+
+        <action name="index" class="org.ailab.tem.wim.EmptyAction">
+            <result>/jsp/admin/index.jsp</result>
+        </action>
+
+        <action name="home" class="org.ailab.tem.wim.EmptyAction">
+            <result>/jsp/admin/index.jsp</result>
+        </action>
+
+        <action name="configList" class="org.ailab.common.config.ConfigListAction">
+            <result>/jsp/admin/config/configList.jsp</result>
+        </action>
+        <action name="configDetail" class="org.ailab.common.config.ConfigDetailAction">
+            <result>/jsp/admin/config/configDetail.jsp</result>
+        </action>
+
+        <action name="userLoggerList" class="org.ailab.wimfra.userLogger.UserLoggerListAction">
+            <result>/jsp/admin/userLogger/userLoggerList.jsp</result>
+        </action>
+        <action name="accessCounterList" class="org.ailab.tem.wim.EmptyAction">
+            <result>/jsp/admin/accessCounter/accessCounterList.jsp</result>
+        </action>
+
+
+        <!--<action name="userLoggerDetail" class="org.ailab.wimfra.userLogger.UserLoggerDetailAction">-->
+        <!--<result>/jsp/admin/userLogger/userLoggerDetail.jsp</result>-->
+        <!--</action>-->
+
+        <action name="login" class="org.ailab.wimfra.user.LoginAction">
+            <result>/jsp/loginResult.jsp</result>
+        </action>
+
+        <action name="userList" class="org.ailab.tem.wim.user.UserListAction">
+            <result>/jsp/admin/user/userList.jsp</result>
+        </action>
+        <action name="userDetail" class="org.ailab.tem.wim.user.UserDetailAction">
+            <result>/jsp/admin/user/userDetail.jsp</result>
+        </action>
+
+        <!-- /////////////////////////////////  用户权限 开始  ////////////////////////////////////////////  -->
+
+        <action name="userGroupList" class="org.ailab.tem.wim.userGroup.UserGroupListAction">
+            <result>/jsp/admin/userGroup/userGroupList.jsp</result>
+        </action>
+        <action name="userGroupDetail" class="org.ailab.tem.wim.userGroup.UserGroupDetailAction">
+            <result>/jsp/admin/userGroup/userGroupDetail.jsp</result>
+        </action>
+
+        <action name="userGroupUserList" class="org.ailab.tem.wim.userGroupUser.UserGroupUserListAction">
+            <result>/jsp/userGroupUser/userGroupUserList.jsp</result>
+        </action>
+        <action name="userGroupUserDetail" class="org.ailab.tem.wim.userGroupUser.UserGroupUserDetailAction">
+            <result>/jsp/userGroupUser/userGroupUserDetail.jsp</result>
+        </action>
+
+        <action name="userGroupMenuList" class="org.ailab.tem.wim.userGroupMenu.UserGroupMenuListAction">
+            <result>/jsp/userGroupMenu/userGroupMenuList.jsp</result>
+        </action>
+        <action name="userGroupMenuDetail" class="org.ailab.tem.wim.userGroupMenu.UserGroupMenuDetailAction">
+            <result>/jsp/userGroupMenu/userGroupMenuDetail.jsp</result>
+        </action>
+
+        <action name="menuList" class="org.ailab.tem.wim.menu.MenuListAction">
+            <result>/jsp/menu/menuList.jsp</result>
+        </action>
+        <action name="menuDetail" class="org.ailab.tem.wim.menu.MenuDetailAction">
+            <result>/jsp/menu/menuDetail.jsp</result>
+        </action>
+
+        <!-- /////////////////////////////////  用户权限 结束  ////////////////////////////////////////////  -->
+
+        <action name="docList" class="org.ailab.entityLinking_old.wim.doc.DocListAction">
+            <result>/jsp/admin/doc/docList.jsp</result>
+        </action>
+        <action name="docDetail" class="org.ailab.entityLinking_old.wim.doc.DocDetailAction">
+            <result>/jsp/admin/doc/docDetail.jsp</result>
+        </action>
+        <action name="docAnno" class="org.ailab.entityLinking_old.wim.doc.DocAnnoAction">
+            <result>/jsp/admin/doc/docAnno.jsp</result>
+        </action>
+
+        <action name="docEntityList" class="org.ailab.entityLinking_old.wim.docEntity.DocEntityListAction">
+            <result>/jsp/admin/docEntity/docEntityList.jsp</result>
+        </action>
+        <action name="docEntityDetail" class="org.ailab.entityLinking_old.wim.docEntity.DocEntityDetailAction">
+            <result>/jsp/admin/docEntity/docEntityDetail.jsp</result>
+        </action>
+
+        <action name="entityList" class="org.ailab.entityLinking_old.wim.entity.EntityListAction">
+            <result>/jsp/admin/entity/entityList.jsp</result>
+        </action>
+        <action name="entityDetail" class="org.ailab.entityLinking_old.wim.entity.EntityDetailAction">
+            <result>/jsp/admin/entity/entityDetail.jsp</result>
+        </action>
+
+        <action name="predicateList" class="org.ailab.entityLinking_old.wim.predicate.PredicateListAction">
+            <result>/jsp/admin/predicate/predicateList.jsp</result>
+        </action>
+        <action name="predicateDetail" class="org.ailab.entityLinking_old.wim.predicate.PredicateDetailAction">
+            <result>/jsp/admin/predicate/predicateDetail.jsp</result>
+        </action>
+        
+        <action name="wikiFactList" class="org.ailab.entityLinking_old.wim.wikiFact.WikiFactListAction">
+            <result>/jsp/admin/wikiFact/wikiFactList.jsp</result>
+        </action>
+        <action name="wikiFactDetail" class="org.ailab.entityLinking_old.wim.wikiFact.WikiFactDetailAction">
+            <result>/jsp/admin/wikiFact/wikiFactDetail.jsp</result>
+        </action>
+
+
+        <action name="entityList" class="org.ailab.entityLinking.wim.entity.EntityListAction">
+            <result>/jsp/entity/entityList.jsp</result>
+        </action>
+        <action name="entityDetail" class="org.ailab.entityLinking.wim.entity.EntityDetailAction">
+            <result>/jsp/entity/entityDetail.jsp</result>
+        </action>
+
+        <action name="docList" class="org.ailab.entityLinking.wim.doc.DocListAction">
+            <result>/jsp/doc/docList.jsp</result>
+        </action>
+        <action name="docDetail" class="org.ailab.entityLinking.wim.doc.DocDetailAction">
+            <result>/jsp/doc/docDetail.jsp</result>
+        </action>
+
+        <action name="mentionList" class="org.ailab.entityLinking.wim.mention.MentionListAction">
+            <result>/jsp/mention/mentionList.jsp</result>
+        </action>
+        <action name="mentionDetail" class="org.ailab.entityLinking.wim.mention.MentionDetailAction">
+            <result>/jsp/mention/mentionDetail.jsp</result>
+        </action>
+
+        <action name="entityNameList" class="org.ailab.entityLinking.wim.entityName.EntityNameListAction">
+            <result>/jsp/entityName/entityNameList.jsp</result>
+        </action>
+        <action name="entityNameDetail" class="org.ailab.entityLinking.wim.entityName.EntityNameDetailAction">
+            <result>/jsp/entityName/entityNameDetail.jsp</result>
+        </action>
+
+    </package>
+</struts>

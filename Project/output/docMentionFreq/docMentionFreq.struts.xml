@@ -1,0 +1,6 @@
+<action name="docMentionFreqList" class="org.ailab.entityLinking.wim.docMentionFreq.DocMentionFreqListAction">
+    <result>/jsp/docMentionFreq/docMentionFreqList.jsp</result>
+</action>
+<action name="docMentionFreqDetail" class="org.ailab.entityLinking.wim.docMentionFreq.DocMentionFreqDetailAction">
+    <result>/jsp/docMentionFreq/docMentionFreqDetail.jsp</result>
+</action>

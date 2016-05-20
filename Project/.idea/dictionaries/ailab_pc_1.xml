@@ -1,0 +1,30 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="ailab_pc_1">
+    <words>
+      <w>anno</w>
+      <w>comparer</w>
+      <w>dataset</w>
+      <w>inlink</w>
+      <w>inlinks</w>
+      <w>jaccard</w>
+      <w>liblinear</w>
+      <w>libsvm</w>
+      <w>nonstopword</w>
+      <w>nonstopwords</w>
+      <w>occurence</w>
+      <w>pagelinks</w>
+      <w>perceptron</w>
+      <w>permutate</w>
+      <w>permutator</w>
+      <w>pubdate</w>
+      <w>querier</w>
+      <w>splitted</w>
+      <w>stopword</w>
+      <w>stopwords</w>
+      <w>tfidf</w>
+      <w>unsampled</w>
+      <w>userdict</w>
+      <w>wikipedia</w>
+    </words>
+  </dictionary>
+</component>
